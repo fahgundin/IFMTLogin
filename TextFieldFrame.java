@@ -21,7 +21,7 @@ public class TextFieldFrame extends JFrame {
         super("Registre o Usuário");
         setLayout(new FlowLayout());
         
-        ImageIcon imageIcon = new ImageIcon("C:/Users/Aluno/Documents/NetBeansProjects/Kaioba/build/classes/javax/ifmt.png");
+        ImageIcon imageIcon = new ImageIcon("ifmt.png");
         imageLabel = new JLabel(imageIcon);
         imageLabel.setHorizontalAlignment(SwingConstants.CENTER); 
         add(imageLabel, BorderLayout.SOUTH);
